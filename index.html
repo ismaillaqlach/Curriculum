@@ -54,32 +54,18 @@
         </tr>
     </table>
        <form action="WebPageFSD.html" >
-   <h1>Send me an email for colaberation</h1>
-<form>
-  <div class="emailBox">
-    <label for="emailAddress">Your email address</label><br />
-    <input
-      id="emailAddress"
-      type="email"
-      size="64"
-      maxlength="64"
-      required
-      placeholder="Please add your email address"
-      pattern="laqlach.ismail@gmail.com"
-      title="Please provide only the email address that you are using" />
-  </div>
+<h1>Send me an email for colaberation</h1>
+ <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+ Name:<br>
+ <input type="text" name="name"><br>
+ E-mail:<br>
+ <input type="text" name="mail"><br>
+ Comment:<br>
+ <input type="text" name="comment" size="50"><br><br>
+ <input type="submit" value="Send">
+ <input type="reset" value="Reset">
+ </form>
 
-  <div class="messageBox">
-    <label for="message">Request</label><br />
-    <textarea
-      id="message"
-      cols="80"
-      rows="8"
-      required
-      placeholder="Please enter your question or if you want to ask some information"></textarea>
-  </div>
-  <input type="submit" value="Send Request" />
-</form>
 
 </body>
 </html>
