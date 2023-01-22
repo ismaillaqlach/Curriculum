@@ -27,17 +27,6 @@
     <li><a href="Images/learning.png">learning</a></li>
    </ol>
    <h4><a href="https://www.fb.com/ismail.laqlach">Contact Me on Facebook</a></h4>
-   <form action="WebPageFSD.html" >
-     <label>"Your Name"</label>
-     <input type="name" name="" value=""><br>
-     <label>"Phone Number"</label>
-     <input type="Phone Number"><br>
-
-   </form>
-   <form action="mailoto:ismail.laqlach@gmail.com" method="post">
-    <label> "send your email here"</label>
-    <input type="Write your email">
-   </form>
    <h3>My Studies</h3>
    <table>
     <tr>
@@ -64,5 +53,33 @@
             <td>❤❤❤❤❤</td>
         </tr>
     </table>
+       <form action="WebPageFSD.html" >
+   <h1>Send me an email for colaberation</h1>
+<form>
+  <div class="emailBox">
+    <label for="emailAddress">Your email address</label><br />
+    <input
+      id="emailAddress"
+      type="email"
+      size="64"
+      maxlength="64"
+      required
+      placeholder="Please add your email address"
+      pattern="laqlach.ismail@gmail.com"
+      title="Please provide only the email address that you are using" />
+  </div>
+
+  <div class="messageBox">
+    <label for="message">Request</label><br />
+    <textarea
+      id="message"
+      cols="80"
+      rows="8"
+      required
+      placeholder="Please enter your question or if you want to ask some information"></textarea>
+  </div>
+  <input type="submit" value="Send Request" />
+</form>
+
 </body>
 </html>
